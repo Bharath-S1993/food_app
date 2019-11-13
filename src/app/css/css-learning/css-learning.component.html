@@ -1,0 +1,23 @@
+<!-- <div class="d-flex justify-content-around flex-wrap">
+    <div *ngFor="let item of values" style="width: 200;height:200;text-align: center;" [ngStyle]="{'background-color':item.value}">
+        {{item |json}}
+    </div>
+</div>
+ -->
+<div class="row">
+    <div class="col-md-4" *ngFor="let item of values" style="width: 100px;height:200px;text-align: center;color:white;line-height:12;margin: 16px;" [ngStyle]="{'background-color':item.value}">
+        {{item.value}}
+    </div>
+</div>
+
+<!-- <div class="row">
+    <div class="col-md-4" style="width:200px;height:200px">
+        A
+    </div>
+    <div class="col-md-4" style="width:200px;height:200px">
+        B
+    </div>
+    <div class="col-md-4" style="width:200px;height:200px">
+        C
+    </div>
+</div> -->

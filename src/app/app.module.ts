@@ -9,7 +9,9 @@ import { ShoppingEditComponent } from './shopping/shopping-list/shopping-edit/sh
 import { ReceipesComponent } from './receipes/receipes.component';
 import { ReceipesListComponent } from './receipes/receipes-list/receipes-list.component';
 import { ReceipesItemComponent } from './receipes/receipes-list/receipes-item/receipes-item.component';
-import { ReceipesDetailsComponent } from './receipes/receipes-details/receipes-details.component'
+import { ReceipesDetailsComponent } from './receipes/receipes-details/receipes-details.component';
+import { CssLearningComponent } from './css/css-learning/css-learning.component'
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,10 +22,12 @@ import { ReceipesDetailsComponent } from './receipes/receipes-details/receipes-d
     ReceipesListComponent,
     ReceipesItemComponent,
     ReceipesDetailsComponent,
+    CssLearningComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
